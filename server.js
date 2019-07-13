@@ -1,5 +1,6 @@
 const bodyParser = require('body-parser')
 const express = require('express')
+const functions = require('./functions')
 
 try {
 	require('dotenv').config()
