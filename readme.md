@@ -1,10 +1,18 @@
+## This is a boilerplate with
+
+-   Firebase cloud functions
+-   MongoDB
+-   RESTful API
+
 ## Dev
+
+Create a `.env` file and put your database url in it as `DATABASE_URL`.
 
 ```
 firebase serve
 ```
 
-Test in Postman. Yes that's it.
+Test in Postman.
 
 ## Deploy
 

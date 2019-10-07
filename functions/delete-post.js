@@ -14,7 +14,7 @@ const ObjectID = require('mongodb').ObjectID
 
 exports.deletePost = functions.https.onRequest(async (req, res) => {
 	if (req.method !== 'DELETE') {
-		return res.status(200).send(`You're weird!`)
+		return res.status(400).send(`You're weird!`)
 	}
 
 	const mongoClient = await mongodb.MongoClient.connect(DATABASE_URL)
